@@ -3,7 +3,7 @@
 
 This repository was possible thanks to the work of many people before me: https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana , https://github.com/philhawthorne/docker-influxdb-grafana , https://gist.github.com/xoseperez/e23334910fb45b0424b35c422760cb87 , https://www.home-assistant.io/blog/2017/04/25/influxdb-grafana-docker/ , https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea .
 
-This container run in a 2 core x86 architecture with at least 2 GB of RAM. The idea behind is a solution for analytics of real time sensor data to use in IoT scenarios. The diference of this container is one more layer with node-red. The last layer is for ingestion of IoT data into InfluxDB.
+For the optimal performance of the system the container must run in a 2-core x86 architecture with at least 2 GB of RAM and SSD (influxDB requirement). The idea behind is a solution for analytics of real time sensor data to use in IoT scenarios. The diference of this container is one more layer with node-red. The last layer is for ingestion of IoT data into InfluxDB.
 
 ## Versions use for the container
 
