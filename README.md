@@ -1,5 +1,8 @@
 ## Analytic container
 ### Hot-path analytic container for IoT scenarios
+<p align="center">
+  <img width="600" height="300" src="https://i1.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2017/01/grafana-dashboard.jpg?resize=598%2C306">
+</p>
 
 This repository was possible thanks to the work of many people before me: https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana , https://github.com/philhawthorne/docker-influxdb-grafana , https://gist.github.com/xoseperez/e23334910fb45b0424b35c422760cb87 , https://www.home-assistant.io/blog/2017/04/25/influxdb-grafana-docker/ , https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea .
 
