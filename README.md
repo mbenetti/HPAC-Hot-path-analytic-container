@@ -1,4 +1,4 @@
-## Analytic container
+## HPAC
 ### Hot-path analytic container for IoT scenarios
 <p align="center">
   <img width="600" height="300" src="https://i1.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2017/01/grafana-dashboard.jpg?resize=598%2C306">
