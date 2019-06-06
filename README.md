@@ -1,6 +1,9 @@
 ## Analytic-container
 ### Hot path analytic container for IoT scenarios
 
+This repository was possible thanks to the work of many people before me: https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana , https://github.com/philhawthorne/docker-influxdb-grafana , https://gist.github.com/xoseperez/e23334910fb45b0424b35c422760cb87 , https://www.home-assistant.io/blog/2017/04/25/influxdb-grafana-docker/ , https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea .
+
+This container run in a 2 core X86 architecture and at least 2 GB of RAM. The idea behind is a solution for analytics of real time sensor data in IoT scenarios.
 
 ## Versions
 
@@ -99,3 +102,11 @@ Port: 8086
 1. Attach to docker container, run shell `/bin/bash`
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
+## Node-red
+
+Open <http://localhost:1880>
+
+```
+Username: 
+Password: 
+```
