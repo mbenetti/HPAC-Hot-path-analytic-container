@@ -1,5 +1,6 @@
 ## HPAC
 ### Hot-path analytic container for IoT scenarios
+
 <p align="center">
   <img width="600" height="300" src="https://i1.wp.com/codeblog.dotsandbrackets.com/wp-content/uploads/2017/01/grafana-dashboard.jpg?resize=598%2C306">
 </p>
@@ -17,6 +18,11 @@ For the optimal performance of the system the container must run in a 2-core x86
 * Grafana:           6.0.0
 * Cronograf          1.7.8
 * Node-red           0.20.5
+
+
+![HPAC](https://user-images.githubusercontent.com/27162948/59157187-9590a680-8aa6-11e9-865c-3e65b5b69416.JPG)
+  
+This is the architecture of the container and the different layers of abstraction
 
 ## Quick Start 
 
