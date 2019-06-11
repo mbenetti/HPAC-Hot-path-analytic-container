@@ -98,11 +98,13 @@ Now you are ready to add your first dashboard and launch some query on database.
 Open <http://localhost:3004>
 
 ```
-Username: root
-Password: root
-Port: 8086
+1 - Get started
+2 - Add a connection, use by default "telegraf" no pass no user
+3 - Add a "System" dashboard, press "Create 1 dashboard"
+4 - Kapacitor, this step skip it.
+5 - Done, go to view all connections
 ```
-Only use in case of adminstration of the databases. Is not use in a normal operation, every new message sent to the DB with a new topic creates automatically a new database with new measurements.
+Only use in case of adminstration of the databases. Is not use in a normal operation, every new message sent to the DB with a new topic creates automatically a new database with new measurements. In dashboard tap should already a dashboard of the host system. 
 
 ### InfluxDB Shell (CLI)
 
