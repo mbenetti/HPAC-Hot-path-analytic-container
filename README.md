@@ -6,7 +6,7 @@
 
 This repository was possible thanks to the work of many people before me: https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana , https://github.com/philhawthorne/docker-influxdb-grafana , https://gist.github.com/xoseperez/e23334910fb45b0424b35c422760cb87 , https://www.home-assistant.io/blog/2017/04/25/influxdb-grafana-docker/ , https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea .
 
-For the optimal performance of the system the container must run in a minimun of 2-core x86 architecture with 2 GB of RAM and SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics andf real-time sensor data in IoT scenarios. The diference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analisis (OLAP).
+For the optimal performance of the system the container should run in a minimun of 2-core x86 architecture with at least 2 GB of RAM and a SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics and real-time sensor data in IoT scenarios. The diference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analisis (OLAP).
 
 ## Versions use for the container
 
@@ -72,7 +72,7 @@ Username: root
 Password: root
 ```
 
-### Add data source on Grafana
+### Add the DB on Grafana
 
 1. Using the wizard click on `Add data source`
 2. Choose a `name` for the source and flag it as `Default`
@@ -89,11 +89,11 @@ Password: telegraf
 
 Basic auth and credentials must be left unflagged. Proxy is not required.
 
-Now you are ready to add your first dashboard and launch some query on database.
+Now you are ready to add your first dashboard and launch some query on database. Out of the box the container provide a dashboard with information of the resources consume by the container in the host machine.
 
 ## InfluxDB
 
-### Web Interface
+### Web Interface for administration
 
 Open <http://localhost:3004>
 
