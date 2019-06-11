@@ -21,7 +21,7 @@ For the optimal performance of the system the container should run in a minimun 
 
 ![HPAC](https://user-images.githubusercontent.com/27162948/59157187-9590a680-8aa6-11e9-865c-3e65b5b69416.JPG)
   
-This is the architecture of the container and the different layers of abstraction
+This is the container architecture and the different layers of abstraction for analytics.
 
 ## Quick Start 
 
