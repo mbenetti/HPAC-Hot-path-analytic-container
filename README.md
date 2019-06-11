@@ -102,6 +102,7 @@ Username: root
 Password: root
 Port: 8086
 ```
+Only use in case of adminstration of the databases. Is not use in a normal operation, every new message sent to the DB with a new topic creates automatically a new database with new measurements.
 
 ### InfluxDB Shell (CLI)
 
@@ -116,3 +117,4 @@ Open <http://localhost:1880>
 Username: 
 Password: 
 ```
+You can create a user and assing privileges.
