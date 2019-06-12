@@ -3,7 +3,7 @@
 
   ![Capture](https://user-images.githubusercontent.com/27162948/59267646-0a044a80-8c4b-11e9-84e9-37a52e0cb9b4.PNG)
 
-For the optimal performance of the system the container should run in a minimun of 2-core x86 architecture with at least 2 GB of RAM and a SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics and real-time sensor data in IoT scenarios. The diference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analisis (OLAP).
+For the optimal performance of the system the container should run in a minimum of 2-core x86 architecture with at least 2 GB of RAM and a SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics and real-time sensor data in IoT scenarios. The difference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analysis (OLAP).
 
 ## Versions use for the container
 
@@ -112,7 +112,7 @@ Open <http://localhost:3004>
 4 - Kapacitor, this step skip it.
 5 - Done, go to view all connections
 ```
-Only use in case of adminstration of the databases. Is not use in a normal operation, every new message sent to the DB with a new topic creates automatically a new database with new measurements. In dashboard tap should already a dashboard of the host system. 
+Only use in case of administration of the databases. Is not use in a normal operation, every new message sent to the DB with a new topic creates automatically a new database with new measurements. In the dashboard tap of grafana main menu should be already a dashboard showing status of the host system. 
 
 ### InfluxDB Shell (CLI)
 
