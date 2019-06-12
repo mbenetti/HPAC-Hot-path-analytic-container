@@ -15,7 +15,6 @@ For the optimal performance of the system the container should run in a minimun 
 * Cronograf          1.7.8
 * Node-red           0.20.5
 
-
 ![HPAC](https://user-images.githubusercontent.com/27162948/59157187-9590a680-8aa6-11e9-865c-3e65b5b69416.JPG)
   
 This is the container architecture and the different layers of abstraction for analytics.
@@ -124,8 +123,7 @@ Only use in case of adminstration of the databases. Is not use in a normal opera
 
 Open <http://localhost:1880>
 
-```
-Username: 
-Password: 
+``` 
+No username or password 
 ```
 You can create a user and assing privileges.
