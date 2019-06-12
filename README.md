@@ -20,6 +20,11 @@ For the optimal performance of the system the container should run in a minimun 
   
 This is the container architecture and the different layers of abstraction for analytics.
 
+# Analytics in IoT using Lambda architecture
+Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch and stream-processing methods. This approach to architecture attempts to balance latency, throughput, and fault-tolerance. The two view outputs may be joined before the presentation. 
+The rise of lambda architecture is correlated with the growth of big data, real-time analytics, and the drive to mitigate the latencies of map-reduce. All of the IoT platforms use this approach to provide comprehensive and accurate views of batch data, while simultaneously using real-time stream processing.
+
+
 ## Quick Start 
 
 To start the container the first time launch:
