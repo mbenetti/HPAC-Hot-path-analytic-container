@@ -27,12 +27,10 @@ The rise of lambda architecture is correlated with the growth of big data, real-
 
 ![image](https://user-images.githubusercontent.com/27162948/59328285-49cf3e80-8cec-11e9-979e-c1ff905a8de9.png)
 
-```sh
+
 ### Differences in the two paths
 *A “hot” path where latency-sensitive data (e.g., the results need to be ready in seconds or less) flows for rapid consumption by analytics clients.
 *A “cold” path where all data goes and is processed in batches that can tolerate greater latencies (e.g., the results can take minutes or even hours) until results are ready.
-
-```
 
 ## Quick Start 
 
