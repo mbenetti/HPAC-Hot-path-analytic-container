@@ -5,7 +5,7 @@
 
 For the optimal performance of the system the container should run in a minimum of 2-core x86 architecture with at least 2 GB of RAM and a SSD (solid state drive, influxDB requirement). The idea is a solution for dashboarding analytics and real-time sensor data in IoT scenarios. The difference of this container respect with the rest is the addition of node-red. This last layer is used for ingestion (ETL) of the IoT data into InfluxDB for later analysis (OLAP).
 
-## Versions use for the container
+## Versions used for the container
 
 * Docker Image:      2.3.0
 * Ubuntu:            18.04
